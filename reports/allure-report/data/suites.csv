@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1047","test_google_search[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
+"","2989","test_url[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
+"","3118","test_Title[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
+"","7208","test_bing_search[chromium]","Day33","2026-07-08","failed","2026-07-08","","test_sample","",""

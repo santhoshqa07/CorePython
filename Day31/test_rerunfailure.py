@@ -10,3 +10,6 @@ def test_Login(page: Page):
     page.wait_for_timeout(10000)
     expect(page.locator("#logout2")).to_be_visible()
     expect(page.locator('#nameofuser')).to_contain_text('Welcome pavanol')
+
+
+    #pytest day32/test_rerunfailure.py -s -v --headed --reruns 3 --reruns-delay 3

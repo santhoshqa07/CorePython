@@ -3,6 +3,7 @@ import pytest
 from playwright.sync_api import expect,Page
 import json
 
+
 login_data=[]    # empty list
 
 # Read json file

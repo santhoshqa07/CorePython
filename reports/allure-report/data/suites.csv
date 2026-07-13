@@ -1,5 +1,4 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","1047","test_google_search[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
-"","2989","test_url[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
-"","3118","test_Title[chromium]","Day33","2026-07-08","passed","2026-07-08","","test_sample","",""
-"","7208","test_bing_search[chromium]","Day33","2026-07-08","failed","2026-07-08","","test_sample","",""
+"","3590","test_login_data_driven_excel[firefox-Male-David-Lee-david1998@yopmai.com-pass123-pass123]","Day32","2026-07-10","passed","2026-07-10","","test_Assgn_DDTesting","",""
+"","7371","test_login_data_driven_excel[firefox-Female-Alice-Kumar-alice1999@yopmai.com-welcome1-welcome0]","Day32","2026-07-10","failed","2026-07-10","","test_Assgn_DDTesting","",""
+"","3558","test_login_data_driven_excel[firefox-Male-John-Smith-john1997@yopmail.com-test123-test123]","Day32","2026-07-10","passed","2026-07-10","","test_Assgn_DDTesting","",""

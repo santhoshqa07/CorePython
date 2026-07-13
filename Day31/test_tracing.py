@@ -31,3 +31,9 @@ def test_record_video(playwright:Playwright):
     browser.close()
 
 
+
+
+
+
+
+

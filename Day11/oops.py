@@ -1,19 +1,19 @@
 #Example 1: Creating a class along with object
 
-# class Myclass:
-#     def myfun(self):
-#         pass
-#
-#     def display(self,name):
-#         print(name)
-#
-# mc1=Myclass()
-# mc1.myfun()
-# mc1.display("John")
-#
-# mc2=Myclass()
-# mc2.myfun()
-# mc2.display("Scott")
+class Myclass:
+    def myfun(self):
+        pass
+
+    def display(self,name):
+        print(name)
+
+mc1=Myclass()
+mc1.myfun()
+mc1.display("John")
+
+mc2=Myclass()
+mc2.myfun()
+mc2.display("Scott")
 
 
 

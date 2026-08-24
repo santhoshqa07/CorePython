@@ -136,9 +136,9 @@ s = "  apple,banana,grape  "
 # fruits = s.split(",")
 # #
 # print("Fruits:", fruits)
-
+#
 # price = 50
-# print(f"Price: {price:.2f}")
+# print(f"Price: {price}")
 
 
 s = "welcome"
@@ -147,3 +147,4 @@ print("come" in s)
 print("My name is {}".format("John"))
 
 print("hello".check(l))
+

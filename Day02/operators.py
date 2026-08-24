@@ -2,16 +2,18 @@
 # + - / * // % **
 from operator import truediv
 
-# a=7
-# b=3
+a=7
+b=3
 #
-# print(a+b)
-# print(a-b)
-# print(a/b)
-# print(a*b)
-# print(a//b)
-# print(a%b)
-# print(a**b)
+print(a+b)
+print(a-b)
+print(a/b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(a**b)
+
+
 
 #Relational operators
 # < > <= >= == !=
@@ -47,6 +49,12 @@ print(1>2)
 
 print((1<2) and (1>2))
 print((1>2) or (1<2))
+
+
+
+
+
+
 
 
 

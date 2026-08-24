@@ -114,7 +114,7 @@
 
 
 #Example 6: Calling parent class method using child class ( super() )
-#
+
 # class A:
 #     def m1(self):
 #         print("This is m1 from class A")
@@ -147,18 +147,18 @@
 
 #Example 8: Overriding variables
 
-# class Parent:
-#     name="Scott"
-#
-# class Child(Parent):
-#     name="John"   # Overrided varaible
-#     def m(self):
-#         print(super().name)
-#
-#
-# cobj=Child()
-# print(cobj.name) # John
-# cobj.m()
+class Parent:
+    name="Scott"
+
+class Child(Parent):
+    name="John"   # Overrided varaible
+    def m(self):
+        print(super().name)
+
+
+cobj=Child()
+print(cobj.name) # John
+cobj.m()
 
 
 

@@ -49,7 +49,7 @@
 # elif amount >= 5000:
 #     discount = amount * 10/ 100
 # elif amount >=1000:
-#     discount = amount * 5 / 100
+#     discount = amount * 5  / 100
 # else:
 #     discount = 0
 #
@@ -138,6 +138,8 @@ if a>b:
     pass
 
 print("something")
+
+
 
 
 

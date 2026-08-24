@@ -58,13 +58,13 @@ print(myset)  #set()
 # - Not possible insertion since set is unordered and not supported index
 
 #
-# myset={'apple', 'cherry', 'banana'}
-#
-# # myset.add("orange")
-# # print("After adding:", myset)  #{'apple', 'banana', 'orange', 'cherry'}
-#
-# myset.update(["mango","grapes"])
-# print(myset)  #{'banana', 'apple', 'mango', 'cherry', 'grapes'}
+myset={'apple', 'cherry', 'banana'}
+
+myset.add("orange")
+print("After adding:", myset)  #{'apple', 'banana', 'orange', 'cherry'}
+
+myset.update(["mango","grapes"])
+print(myset)  #{'banana', 'apple', 'mango', 'cherry', 'grapes'}
 
 
 # if you have duplicates in a set it will ignore

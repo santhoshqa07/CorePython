@@ -74,7 +74,7 @@ print (id(mytuple))
 
 # Remove the values from tuple -- not possible bcoz tuple is immutable
 mytuple=("apple","banana","cherry")
-mytuple.remove("apple")  # incorrect/invalid
+#mytuple.remove("apple")  # incorrect/invalid
 
 
 # joining the tuples

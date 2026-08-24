@@ -77,6 +77,16 @@
 #     print("{0} x {1} = {2}".format(n,i,n*i))
 
 
+#or
+
+# n = int(input("Enter a number: "))
+#
+# for i in range(1, 11):
+#     print(f"{n} x {i} = {n*i}")
+
+
+
+
 ## 7. Print a Square
 
 #
@@ -114,41 +124,41 @@
 ## 10. Fibonacci Sequence
 
 
-n = int(input("Enter number of terms: "))
-a, b = 0, 1
-
-for i in range(n):
-    print(a, end=" ")
-    a, b = b, a + b
+# n = int(input("Enter number of terms: "))
+# a, b = 0, 1
+#
+# for i in range(n):
+#     print(a, end=" ")
+#     a, b = b, a + b
 
 
 ## 11. Input Validation with break
 
 
-while True:
-    num = int(input( "\n Enter a number between 1 and 10: "))
-    if 1 <= num <= 10:
-        print("Valid number entered:", num)
-        break
-    else:
-        print("Invalid! Try again.")
+# while True:
+#     num = int(input( "\n Enter a number between 1 and 10: "))
+#     if 1 <= num <= 10:
+#         print("Valid number entered:", num)
+#         break
+#     else:
+#         print("Invalid! Try again.")
 
 
 ## 12. Skip Multiples with continue
 
 
-for i in range(1, 21):
-    if i % 3 == 0:
-        continue
-    print(i)
+# for i in range(1, 21):
+#     if i % 3 == 0:
+#         continue
+#     print(i)
 
 
-## 13. Simple ATM Simulator
+# 13. Simple ATM Simulator
 
 balance = 0
 
 while True:
-    print("\nATM Menu:")
+    print("\n ATM Menu:")
     print("1. Deposit")
     print("2. Withdraw")
     print("3. Exit")
@@ -189,3 +199,4 @@ for ch in word:
 
 print("'a' count:", count_a)
 print("'b' count:", count_b)
+

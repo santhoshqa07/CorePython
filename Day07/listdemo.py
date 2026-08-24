@@ -69,10 +69,10 @@ mylist=["apple","banana","cherry"]
 #
 mylist = ['cherry','mango', 'banana','apple']
 #
-# print("original list:",mylist)
-#mylist.sort()  # sort the elements ascending order  ['apple', 'banana', 'cherry', 'mango']
-# mylist.sort(reverse=True) # sort the elements in descending order ['mango', 'cherry', 'banana', 'apple']
-# print("Sorted values:", mylist)
+print("original list:",mylist)
+mylist.sort()  # sort the elements ascending order  ['apple', 'banana', 'cherry', 'mango']
+mylist.sort(reverse=True) # sort the elements in descending order ['mango', 'cherry', 'banana', 'apple']
+print("Sorted values:", mylist)
 
 #
 # Reversing list items
@@ -151,16 +151,16 @@ mylist = ['cherry','mango', 'banana','apple']
 # print(list3)
 
 #
-# # Appraoch 2: using for loop
+# Appraoch 2: using for loop
 # list1=["a","b","c"]
 # list2=[10,20,30]
 # list3=list()
 #
 #
-# # for i in list2:
-# #     list1.append(i)
-# #
-# # print(list1)  #['a', 'b', 'c', 10, 20, 30]
+# for i in list2:
+#     list1.append(i)
+#
+# print(list1)  #['a', 'b', 'c', 10, 20, 30]
 #
 #
 # for i in list1:
@@ -181,12 +181,12 @@ mylist = ['cherry','mango', 'banana','apple']
 # x = [1, 2, 3, 4]
 # x.pop(-2)
 # print(x)
-
-
-x=[x for x in range(5)]
-
-print(x)
-print([x for x in range(5)])
+#
+#
+# x=[x for x in range(5)]
+#
+# print(x)
+# print([x for x in range(5)])
 #
 #
 #

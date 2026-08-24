@@ -31,11 +31,11 @@
 
 
 #Example 3: Default values can be assigned to positional arguments
-# def myfun(i=10,j=20):
-#     print(i,j)
-#
-# myfun(100)  # 100 20
-# myfun()  #10 20
+def myfun(i=10,j=20):
+    print(i,j)
+
+myfun(100)  # 100 20
+#myfun()  #10 20
 
 
 

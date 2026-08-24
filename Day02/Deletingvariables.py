@@ -7,7 +7,7 @@ print(b)
 
 print(b)
 del a
-print(a)
+#print(a)
 print(b)
 
 

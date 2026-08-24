@@ -14,18 +14,18 @@ name=str()   # empty string
 grade=str()  # empty string
 print(name, grade)
 
-name=str("John")
-grade=str("B")
-
-print(name, grade)
-
-print(type(name))
-print(type(grade))
+# name=str("John")
+# grade=str("B")
+#
+# print(name, grade)
+#
+# print(type(name))
+# print(type(grade))
 
 # +   and  * operators with strings
-str="welcome"
-print(str+" Programming")
-print(str * 3)
+# str="welcome"
+# print(str+" Programming")
+# print(str * 3)
 
 
 ## Slicing strings
@@ -38,9 +38,9 @@ print(str * 3)
 # print(mystr[:6])  # welcom #here starting index is 0 by default
 # print(mystr[2:]) #lcome    # here ending index is last value
 #
-mystr="welcome"
-print(mystr[1:-1])  #elcom
-print(mystr[1:-2]) # elco
+# mystr="welcome"
+# print(mystr[1:-1])  #elcom
+# print(mystr[1:-2]) # elco
 #
 # print(mystr[-5:-2]) #lco
 
@@ -60,11 +60,11 @@ print(mystr[1:-2]) # elco
 #Example 2:
 # Output: The price is 55.00
 
-# price=55
-# str=f"The price is {price:.2f} "
-# print(str)
+price=55
+str=f"The price is {price:.2f} "
+print(str)
 
- # Example 3:
+# Example 3:
 # price=20
 # str=f"The price is {price * 10} dollards"
 # print(str)

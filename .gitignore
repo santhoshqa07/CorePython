@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Pytest
+.pytest_cache/
+
+# Test reports
+reports/
+test-results/
+
+# IDE
+.idea/
+
+# Environment variables / secrets
+.env

@@ -17,7 +17,9 @@ print(True+ True)
 
 print(10 + "Welcome")
 print(10.5 + "Welcome")
-print(True + "Welcome")      
+print(True + "Welcome")
+
+
 
 
 

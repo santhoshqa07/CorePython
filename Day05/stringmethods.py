@@ -26,14 +26,14 @@
 # #center() : Returns a centered string
 # str="banana"
 # print(str.center(10))
-# print(str.center(10,'*')) #**banana**
+# print(str.center(11,'*')) #**banana**
 #
 # #format()	Formats specified values in a string
 # name="John"
 # print("Hello {}".format(name))  # Hello John
 #
 #
-# # #find()	Searches the string for a specified value and returns the position of where it was found
+# #find()	Searches the string for a specified value and returns the position of where it was found
 # s="hello"
 # print(s.find("e"))  # 1
 # print(s.find("l"))  # 2
